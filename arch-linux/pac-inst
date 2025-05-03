@@ -26,6 +26,9 @@ sudo pacman -S --noconfirm --needed \
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
 
+# Let's try to wait for service startup before connecting
+sleep 5
+
 nmcli device wifi connect 2400 --ask
 
 echo -e "\npacman install complete, and wifi up."
