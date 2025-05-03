@@ -26,3 +26,5 @@ cd displaylink/
 makepkg -si
 cd ..
 
+sudo systemctl enable displaylink
+sudo systemctl start displaylink
