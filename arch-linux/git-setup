@@ -1,5 +1,9 @@
 #!/bin/bash --
 
+git config --global user.email "dan@dmonline.uk"
+git config --global user.name dan
+
+
 # Needed to allow gpg-GCM-pass integration for github
 # so the pushes can be approved and credentials cached
 
