@@ -29,23 +29,3 @@ fi
 # oh-my-posh
 export PATH=$PATH:~/.local/bin/
 eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/jtracey93.omp.json)"
-
-# oh-my-posh
-export PATH=$PATH:~/.local/bin/
-eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/jtracey93.omp.json)"
-
-# oh-my-posh
-export PATH=$PATH:~/.local/bin/
-eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/jtracey93.omp.json)"
-
-# oh-my-posh
-export PATH=$PATH:~/.local/bin/
-eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/jtracey93.omp.json)"
-
-# oh-my-posh
-export PATH=$PATH:~/.local/bin/
-eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/jtracey93.omp.json)"
-
-# oh-my-posh
-export PATH=$PATH:~/.local/bin/
-eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/jtracey93.omp.json)"
