@@ -1,0 +1,15 @@
+#!/bin/bash --
+
+# Needed to allow gpg-GCM-pass integration for github
+# so the pushes can be approved and credentials cached
+
+curl -L https://aka.ms/gcm/linux-install-source.sh | sh
+git-credential-manager configure
+git config --global credential.credentialStore gpg
+
+echo -e "/nSuggested ID as follows:/n/n"
+echo "Daniel Morris (Happy to be here) <dan@dmonline.uk>"
+echo -e "/n/nThanks!"
+
+gpg --full-generate-key
+pass init "Daniel Morris (Happy to be here) <dan@dmonline.uk>"
