@@ -5,8 +5,8 @@
 
 # Ensure we have a projects folder for source and builds
 cd~
-mkdir -p projects # Uses -p to prevent error when folder already exists
-cd projects
+mkdir -p ~/projects # Uses -p to prevent error when folder already exists
+cd ~/projects
 
 # VSCode
 git clone https://aur.archlinux.org/visual-studio-code-bin.git

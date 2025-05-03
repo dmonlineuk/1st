@@ -20,7 +20,8 @@ sudo pacman -S --noconfirm --needed \
     remmina \
     freerdp \
     linux-headers \
-    pass
+    pass \
+    less
 
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
