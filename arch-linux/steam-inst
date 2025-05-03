@@ -1,0 +1,6 @@
+#!/bin/bash --
+
+echo -e "\nThe following will fail if the multilib library is not enabled in pacman.conf\n"
+echo -e "\nAlso, please take care to choose correctly when asked for 32 bit drivers and vlk\n"
+
+sudo pacman -S steam

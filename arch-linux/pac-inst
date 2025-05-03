@@ -19,8 +19,7 @@ sudo pacman -S --noconfirm --needed \
     networkmanager \
     remmina \
     freerdp \
-    linux-headers \
-    steam
+    linux-headers 
 
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
