@@ -13,3 +13,16 @@ git clone https://aur.archlinux.org/visual-studio-code-bin.git
 cd visual-studio-code-bin/
 makepkg -si
 cd ..
+
+# evdi
+git clone https://aur.archlinux.org/evdi.git
+cd evdi/
+makepkg -si
+cd ..
+
+# DisplayLink drivers
+git clone https://aur.archlinux.org/displaylink.git
+cd displaylink/
+makepkg -si
+cd ..
+
