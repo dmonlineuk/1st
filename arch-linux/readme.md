@@ -6,3 +6,4 @@ Compare and check the differences for these files:
 |---|---|
 | ~/.config/hypr/hyprland.conf | hyprland.conf |
 | /etc/pacman.conf | pacman.conf |
+| ~/.bashrc | .bashrc |

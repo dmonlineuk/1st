@@ -1,0 +1,51 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# following aliases not needed as we will use eza
+# alias ls='ls --color=auto'
+# alias ll='ls -al'
+
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+# New aliases to use eza instead of ls. This may render previous alias declarations redundant
+alias eza='eza --color=always --git --no-filesize --icons=always --group'
+alias ll='eza -alF'
+alias la='eza -A'
+alias l='ls -CF'
+
+
+
+
+# can we start tmux?
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
+
+# oh-my-posh
+export PATH=$PATH:~/.local/bin/
+eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/jtracey93.omp.json)"
+
+# oh-my-posh
+export PATH=$PATH:~/.local/bin/
+eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/jtracey93.omp.json)"
+
+# oh-my-posh
+export PATH=$PATH:~/.local/bin/
+eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/jtracey93.omp.json)"
+
+# oh-my-posh
+export PATH=$PATH:~/.local/bin/
+eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/jtracey93.omp.json)"
+
+# oh-my-posh
+export PATH=$PATH:~/.local/bin/
+eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/jtracey93.omp.json)"
+
+# oh-my-posh
+export PATH=$PATH:~/.local/bin/
+eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/jtracey93.omp.json)"
