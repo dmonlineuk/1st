@@ -5,10 +5,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# following aliases not needed as we will use eza
-# alias ls='ls --color=auto'
-# alias ll='ls -al'
-
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
@@ -18,6 +14,7 @@ alias ll='eza -alF'
 alias la='eza -A'
 alias l='ls -CF'
 
+alias a='(git status; ll) | more'
 
 
 
