@@ -1,0 +1,20 @@
+#!/bin/bash --
+
+# Ensure we have a projects folder for source and builds
+mkdir -p ~/projects # Uses -p to prevent error when folder already exists
+cd ~/projects  
+
+# evdi
+git clone https://aur.archlinux.org/evdi.git
+cd evdi/ 
+makepkg -si
+cd .. 
+
+# DisplayLink drivers 
+git clone https://aur.archlinux.org/displaylink.git 
+cd displaylink/ 
+makepkg -si 
+cd ..
+
+sudo systemctl enable displaylink 
+sudo systemctl start displaylink  
