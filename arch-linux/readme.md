@@ -1,6 +1,6 @@
 # Scripts
 
-Recommended appraoch would be to run `. pac-inst` first, then `. 1drive-inst`, and the rest in any order your like :-)
+Recommended approach would be to run `. pac-inst` first, then `. 1drive-inst`, and the rest in any order your like :-)
 
 ## OneDrive
 
@@ -37,7 +37,7 @@ using `gpg` and `pass` packages, linked to the Git Credential Manager. Get set u
 
 ## KeePass cli
 
-KeePass database is in Onedrive, so that should be set up first. Get the cli using:
+KeePass database is in OneDrive, so that should be set up first. Get the cli using:
 
 `. kpcli-inst`
 
