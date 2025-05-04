@@ -11,3 +11,5 @@ makepkg -si
 cd ~
 mkdir -p OneDrive
 
+onedrive -s
+

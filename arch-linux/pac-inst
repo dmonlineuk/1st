@@ -21,7 +21,8 @@ sudo pacman -S --noconfirm --needed \
     freerdp \
     linux-headers \
     pass \
-    less
+    less \
+    stow
 
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
