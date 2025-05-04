@@ -1,0 +1,13 @@
+#!/bin/bash --
+
+sudo pacman -S libphobos ldc
+
+mkdir -p ~/projects
+cd ~/projects
+git clone https://aur.archlinux.org/onedrive-abraunegg.git
+cd onedrive-abraunegg
+makpepkg -si
+
+cd ~
+mkdir -p OneDrive
+
