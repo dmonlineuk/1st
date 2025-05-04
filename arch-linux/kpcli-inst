@@ -1,0 +1,88 @@
+#!/bin/bash --
+
+# First, as many pacman packages as we can
+sudo pacman -S --no-confirm --needed
+    perl-term-readkey \
+    perl-term-readline-gnu \
+    perl-term-sort-naturally \
+    perl-clone \
+    perl-xml-parser \
+    perl-cpan-requirements-dynamic \
+    perl-extutils-config \
+    perl-extutils-helpers \
+    perl-extutils-installpaths \
+    perl-cryptx \
+    perl-devel-globaldestruction \
+    perl-namespace-clean \
+    perl-ref-util \
+    perl-scope-guard \
+    perl-xml-libxml
+
+
+mkdir -p ~/projects
+cd ~/projects
+
+git clone https://aur.archlinux.org/perl-crypt-rijndael.git
+cd perl-crypt-rijndael/
+makepkg -si
+cd ..
+
+git clone https://aur.archlinux.org/perl-file-keepass.git
+cd perl-file-keepass/
+makepkg -si
+cd ..
+
+git clone https://aur.archlinux.org/perl-boolean.git
+cd perl-boolean/
+makepkg -si
+cd ..
+
+git clone https://aur.archlinux.org/perl-extutils-builder.git
+cd perl-extutils-builder/
+makepkg -si
+cd ..
+
+git clone https://aur.archlinux.org/perl-extutils-builder-compiler.git
+cd perl-extutils-builder-compiler/
+makepkg -si
+cd ..
+
+git clone https://aur.archlinux.org/perl-extutils-hascompiler.git
+cd perl-extutils-hascompiler/
+makepkg -si
+cd ..
+
+git clone https://aur.archlinux.org/perl-file-sharedir-tiny.git
+cd perl-file-sharedir-tiny/
+makepkg -si
+cd ..
+
+git clone https://aur.archlinux.org/perl-dist-build.git
+cd perl-dist-build/
+makepkg -si
+cd ..
+
+git clone https://aur.archlinux.org/perl-crypt-argon2.git
+cd perl-crypt-argon2/
+makepkg -si
+cd ..
+
+git clone https://aur.archlinux.org/perl-iterator-simple.git
+cd perl-iterator-simple/
+makepkg -si
+cd ..
+
+git clone https://aur.archlinux.org/perl-file-kdbx.git
+cd perl-file-kdbx/
+makepkg -si
+cd ..
+
+git clone https://aur.archlinux.org/perl-term-shellui.git
+cd perl-term-shellui/
+makepkg -si
+cd ..
+
+git clone https://aur.archlinux.org/kpcli.git
+cd kpcli/
+makepkg -si
+cd ..
