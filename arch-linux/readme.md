@@ -9,6 +9,7 @@ Compare and check the differences for these files:
 | ~/.bashrc | .bashrc |
 | ~/.config/wofi/style.css | wofi.css |
 | ~/.tmux.conf | .tmux.conf |
+| ~/.config/kitty/kitty.conf | kitty.conf |
 
 ## Notes
 
