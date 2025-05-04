@@ -14,7 +14,7 @@ alias ll='eza -alF'
 alias la='eza -A'
 alias l='ls -CF'
 
-alias a='(git status; ll) | more'
+alias kpd='kpcli --kdb=/home/dan/OneDrive/kpdb/Database.kdbx'
 
 
 
