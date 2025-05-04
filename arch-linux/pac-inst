@@ -22,7 +22,8 @@ sudo pacman -S --noconfirm --needed \
     linux-headers \
     pass \
     less \
-    stow
+    stow \
+    sane-airscan
 
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
