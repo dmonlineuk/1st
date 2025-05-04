@@ -8,3 +8,8 @@ Compare and check the differences for these files:
 | /etc/pacman.conf | pacman.conf |
 | ~/.bashrc | .bashrc |
 | ~/.config/wofi/style.css | wofi.css |
+| ~/.tmux.conf | .tmux.conf |
+
+## Notes
+
+For tmux, it might be necessary to set the source-file: `tmux source-file ~/.tmux.conf`

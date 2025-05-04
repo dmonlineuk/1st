@@ -6,7 +6,7 @@ mkdir -p ~/projects
 cd ~/projects
 git clone https://aur.archlinux.org/onedrive-abraunegg.git
 cd onedrive-abraunegg
-makpepkg -si
+makepkg -si
 
 cd ~
 mkdir -p OneDrive
