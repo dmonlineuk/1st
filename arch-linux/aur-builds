@@ -13,3 +13,9 @@ cd visual-studio-code-bin/
 makepkg -si
 cd ..
 
+# hyprshot
+git clone https://aur.archlinux.org/hyprshot.git
+cd hyprshot/
+makepkg -si
+cd ..
+

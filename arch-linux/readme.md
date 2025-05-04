@@ -22,9 +22,11 @@ To enable support with usb-c docks display outputs:
 
 `. displink-inst`
 
-## VS Code
+## AUR builds
 
-For now, only VS Code is pulled from AUR (except packages in other scripts)
+This one covers:
+- VS Code (official)
+- hyprshot
 
 `. aur-builds`
 
