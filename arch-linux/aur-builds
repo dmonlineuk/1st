@@ -27,7 +27,6 @@ cd ..
 
 # pwvucontrol
 git clone https://aur.archlinux.org/pwvucontrol.git
-ch pwvucontrol
+cd pwvucontrol
 makepkg -si
 cd ..
-
