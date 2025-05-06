@@ -28,7 +28,8 @@ sudo pacman -S --noconfirm --needed \
     qpdf \
     glow \
     jq \
-    wl-clipboard
+    wl-clipboard \
+    cups
 
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
@@ -41,3 +42,5 @@ nmcli device wifi connect 2400 --ask
 echo -e "\npacman install complete, and wifi up."
 echo -e "Control the wifi radio as follows:\n"
 echo -e "nmcli radio wifi off|on\n"
+
+lpadmin -p LexmarkPrt -D "Lexmark CX310dn" -E -v socket://lexmarkprt.loc
