@@ -19,6 +19,12 @@ cd hyprshot/
 makepkg -si
 cd ..
 
+# libwireplumber
+git clone https://aur.archlinux.org/libwireplumber-4.0-compat.git
+cd libwireplumber
+makepkg -si
+cd ..
+
 # pwvucontrol
 git clone https://aur.archlinux.org/pwvucontrol.git
 ch pwvucontrol
