@@ -26,7 +26,9 @@ sudo pacman -S --noconfirm --needed \
     sane-airscan \
     poppler \
     qpdf \
-    glow
+    glow \
+    jq \
+    wl-clipboard
 
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
