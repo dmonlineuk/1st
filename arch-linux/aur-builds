@@ -21,12 +21,12 @@ cd ..
 
 # libwireplumber
 git clone https://aur.archlinux.org/libwireplumber-4.0-compat.git
-cd libwireplumber
+cd libwireplumber-4.0-compat
 makepkg -si
 cd ..
 
 # pwvucontrol
 git clone https://aur.archlinux.org/pwvucontrol.git
-cd pwvucontrol
+cd pwvucontrol/
 makepkg -si
 cd ..
