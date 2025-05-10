@@ -1,0 +1,19 @@
+#!/bin/bash --
+
+git config --global user.email "dan@dmonline.uk"
+git config --global user.name dan
+
+
+# Needed to allow gpg-GCM-pass integration for github
+# so the pushes can be approved and credentials cached
+
+wget https://github.com/git-ecosystem/git-credential-manager/releases/download/v2.6.1/gcm-linux_amd64.2.6.1.deb
+git-credential-manager configure
+git config --global credential.credentialStore gpg
+
+echo -e "/nSuggested ID as follows:/n/n"
+echo "Daniel Morris (Happy to be here) <dan@dmonline.uk>"
+echo -e "/n/nThanks!"
+
+gpg --full-generate-key
+pass init "Daniel Morris (Happy to be here) <dan@dmonline.uk>"
