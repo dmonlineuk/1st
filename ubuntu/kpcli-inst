@@ -1,0 +1,23 @@
+#!/bin/bash --
+
+sudo apt install -y kpcli
+
+wget https://sourceforge.net/projects/kpcli/files/kpcli-4.1.3-1.deb
+sudo dpkg -i kpcli-4.1.3-1.deb
+
+# wget https://sourceforge.net/projects/kpcli/files/kpcli-4.1.3.pl
+# mv kpcli-4.1.3.pl ~/
+
+sudo apt install -y \
+    libfile-keepass-perl \
+    libterm-readkey-perl \
+    libsort-naturally-perl \
+    libterm-shellui-perl \
+    libcrypt-rijndael-perl \
+    libterm-readline-gnu-perl \
+    libfile-kdbx-perl \
+    libexpect-perl
+
+sudo apt install cpanminus
+sudo cpanm Crypt::Argon2
+
