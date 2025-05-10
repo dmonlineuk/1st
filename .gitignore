@@ -3,3 +3,5 @@
 # Rather not pull this potentially outdated script from my repo
 dotnet-install.sh
 
+# Any downloaded deb packages
+*.deb
