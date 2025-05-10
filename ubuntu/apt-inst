@@ -1,0 +1,20 @@
+#!/bin/bash --
+
+echo -e "\nInstalling packages from apt, please"
+echo -e "supply the user password when prompted."
+
+sudo apt install -y \
+    tldr \
+    fzf \
+    bat \
+    tmux \
+    fd-find \
+    kitty \
+    eza \
+    remmina \
+    pass \
+    stow \
+    qpdf \
+    curl
+
+lpadmin -p LexmarkPrt -D "Lexmark CX310dn" -E -v socket://lexmarkprt.loc
