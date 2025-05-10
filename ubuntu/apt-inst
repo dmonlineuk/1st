@@ -15,6 +15,7 @@ sudo apt install -y \
     pass \
     stow \
     qpdf \
-    curl
+    curl \
+    kpcli
 
 lpadmin -p LexmarkPrt -D "Lexmark CX310dn" -E -v socket://lexmarkprt.loc
