@@ -29,7 +29,8 @@ sudo pacman -S --noconfirm --needed \
     glow \
     jq \
     wl-clipboard \
-    cups
+    cups \
+    libreoffice-still
 
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
