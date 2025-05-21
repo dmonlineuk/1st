@@ -30,18 +30,25 @@ sudo pacman -S --noconfirm --needed \
     jq \
     wl-clipboard \
     cups \
-    libreoffice-still
+    libreoffice-still \
+    flatpak
 
-sudo systemctl enable NetworkManager
-sudo systemctl start NetworkManager
+# This is for the laptop
+if [ $HOSTNAME = 'arch-laptop' ]
+then
 
-# Let's try to wait for service startup before connecting
-sleep 5
+  sudo systemctl enable NetworkManager
+  sudo systemctl start NetworkManager
 
-nmcli device wifi connect 2400 --ask
+  # Let's try to wait for service startup before connecting
+  sleep 5
 
-echo -e "\npacman install complete, and wifi up."
-echo -e "Control the wifi radio as follows:\n"
-echo -e "nmcli radio wifi off|on\n"
+  nmcli device wifi connect 2400 --ask
+
+  echo -e "\npacman install complete, and wifi up."
+  echo -e "Control the wifi radio as follows:\n"
+  echo -e "nmcli radio wifi off|on\n"
+
+fi
 
 lpadmin -p LexmarkPrt -D "Lexmark CX310dn" -E -v socket://lexmarkprt.loc
