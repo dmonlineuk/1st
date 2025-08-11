@@ -13,8 +13,22 @@ sudo pacman -S \
     bat \       # View text files the best way possible
     stow \      # Improves dotfiles management
     tmux \      # Improves tty/pts use
-    vifm \      # Required for aurutilts
+    vifm \      # Required for aurutils
     less        # Required for `git diff`
 ```
 
 ## AUR
+
+Two useful scripts in the subfolder `aurutils/`
+- read both scripts before executing
+- run the first
+- change a file: `/etc/pacman.conf
+- run the second script
+
+Purpose is to:
+
+1. Install the aurutils package from the AUR
+1. Apply changes to the pacman conf to use the AUR
+1. Ensure the link between AUR and pacman with the local repo
+1. Reinstall aurutils with aurutils (as a test)
+
