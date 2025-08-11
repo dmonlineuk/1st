@@ -1,0 +1,10 @@
+#!/bash/bin
+sudo install -d /home/custompkgs -o $USER
+repo-add /home/custompkgs/custom.db.tar
+sudo pacman -Syu
+sudo pacman -S vifm
+
+# Test our new link to aur and custom repo
+aur sync aurutils
+sudo pacman -S aurutils
+
