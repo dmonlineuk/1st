@@ -21,8 +21,8 @@ sudo pacman -S \
 
 Two useful scripts in the subfolder `aurutils/`
 - read both scripts before executing
-- run the first
-- change a file: `/etc/pacman.conf
+- run the first script
+- change a file: `/etc/pacman.conf`
 - run the second script
 
 Purpose is to:
