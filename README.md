@@ -6,6 +6,7 @@ Some quick-access scripts to get started with a new install
 
 If it's not already part of the initial install (I mean, reading this locally without git??), then install some required packages:
 
+```bash
 sudo pacman -S \
     git \       # Obvious?
     firefox \   # Browser?
@@ -14,5 +15,6 @@ sudo pacman -S \
     tmux \      # Improves tty/pts use
     vifm \      # Required for aurutilts
     less        # Required for `git diff`
+```
 
 ## AUR
