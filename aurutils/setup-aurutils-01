@@ -1,7 +1,7 @@
 #!/bash/bin
 # We start from home
 cd
-mkdir -p projects && cd projects/
+# mkdir -p projects && cd projects/
 
 # Build & install aurutils
 git clone https://aur.archlinux.org/aurutils.git && cd aurutils/
@@ -12,5 +12,5 @@ echo "requirement to edit the pacman.conf file and allow our custom repo:"
 echo .
 echo "> sudo vim /etc/pacman.conf"
 echo .
-echo "When ready, run `. setup-aurutils-02`
+echo "When ready, run `. setup-aurutils-02`"
 
